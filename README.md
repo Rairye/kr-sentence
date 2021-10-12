@@ -10,7 +10,7 @@ from kr_sentence.tokenizer import tokenize
 
 paragraph_str = "저는 미국인이에요. 만나서 반갑습니다."
 
-sentence_list = tokenize(input_str)
+sentence_list = tokenize(paragraph_str)
 
 for sentence in sentence_list:
 	print(sentence)
