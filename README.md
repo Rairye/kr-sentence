@@ -2,7 +2,9 @@ A light-weight sentence tokenizer for Korean.
 
 Half-width punctuation is generally used in Korean, but this tokenizer also supports full-width punctuation. (For details about full-width punctuation in Korean, please see https://www.w3.org/TR/klreq/).
 
-Sample Code:
+## Sample Code:
+
+```python
 
 from kr_sentence.tokenizer import tokenize
 
@@ -12,3 +14,5 @@ sentence_list = tokenize(input_str)
 
 for sentence in sentence_list:
 	print(sentence)
+
+```python
