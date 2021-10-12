@@ -15,4 +15,4 @@ sentence_list = tokenize(input_str)
 for sentence in sentence_list:
 	print(sentence)
 
-```python
+```
