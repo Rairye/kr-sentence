@@ -21,3 +21,7 @@ for sentence in sentence_list:
 	print(sentence)
 
 ```
+
+## Other languages
+
+JavaScript -> https://github.com/Rairye/js-sentence-tokenizers
